@@ -1,4 +1,4 @@
-# Übungsblatt 6
+# Übungsblatt 3
 ## Allgemeine Hinweise
 Für diese und alle folgenden Praktikumsaufgaben gilt, dass Einsendungen, die in der jeweils mitgegebenen Testumgebung nicht laufen, mit null Punkten bewertet werden!
 Das beinhaltet insbesondere alle Programme, die sich nicht fehlerfrei kompilieren lassen.
