@@ -1,19 +1,19 @@
 # Übungsblatt 3
 ## Allgemeine Hinweise
-Für diese und alle folgenden Praktikumsaufgaben gilt, dass Einsendungen, die in der jeweils mitgegebenen Testumgebung nicht laufen, mit null Punkten bewertet werden!
-Das beinhaltet insbesondere alle Programme, die sich nicht fehlerfrei kompilieren lassen.
+Für diese und alle folgenden Praktikumsaufgaben gilt, dass Einsendungen, die in der jeweils mitgegebenen Testumgebung nicht laufen, Punktabzug erhalten! 
+Das beinhaltet insbesondere alle Programme, die sich nicht fehlerfrei kompilieren lassen. 
 Da Cargo für die Ausführung verantwortlich ist, sollte das Projekt bei Ihnen am Ende mit `cargo test` ohne Fehler und Warnungen durchlaufen.
-
 
 ## Abgabemodus
 Die Lösung ist in einem eigenen Git-Repository abzugeben.
-Sie können in ihrer Lösung beliebige Hilfstypen und Module selbst definieren, jedoch dürfen die vorhandenen Testfälle nicht abgeändert werden.
+Sie können in ihrer Lösung beliebige Hilfstypen und Module selbst definieren, jedoch dürfen die vorhandenen Testfälle im [tests](tests)-Ordner nicht abgeändert werden.
 
 Zur Lösung der Aufgaben steht für Sie dieses Repository mit
 - einem erweiterten [C1Lexer](src/lexer.rs)
 - und einem Integrationstest in [parser.rs](tests/parser.rs) 
 
 zur Verfügung.
+In [parser.rs](src/parser.rs) befinden sich ein auskommentiertes Parser-Skelett mit Hilfsfunktionen und Testfällen. Sie können den auskommentierten Code nach Belieben nutzen oder löschen. 
 > Sie können die Implementierung mit `cargo test` prüfen. Mit `cargo test -- --nocapture` werden Konsolenausgaben auch bei korrekten Tests angezeigt.
 
 
