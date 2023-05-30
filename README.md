@@ -17,7 +17,7 @@ In [parser.rs](src/parser.rs) befinden sich ein auskommentiertes Parser-Skelett 
 > Sie können die Implementierung mit `cargo test` prüfen. Mit `cargo test -- --nocapture` werden Konsolenausgaben auch bei korrekten Tests angezeigt.
 
 
-## Aufgabe 1 (50 Punkte)
+## Aufgabe 1 (100 Punkte)
 ### Kurzbeschreibung
 Implementieren Sie von Hand einen Parser, der die Sprache C(-1) (eine Teilsprache von C1) erkennen kann. Verwenden Sie dazu wahlweise ihren Lexer aus Praktikumsaufgabe 2 oder den beigelegten, erweiterten [C1Lexer](src/lexer.rs). 
 
